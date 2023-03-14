@@ -1,0 +1,22 @@
+{
+    "name": "windows/ipm",
+    "autoload": {},
+    "authors": [
+        {
+            "name": "Diki Rahmad Sandi",
+            "email": "wawaiguntang@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.24",
+        "dompdf/dompdf": "^2.0",
+        "setasign/fpdf": "^1.8",
+        "mpdf/mpdf": "^8.1",
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.21"
+         }
+   }
+}

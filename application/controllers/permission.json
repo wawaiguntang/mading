@@ -1,0 +1,228 @@
+[
+  {
+    "module": "Dashboard",
+    "permission": [
+      {
+        "permission": "RDASH",
+        "description": "See dashboard"
+      }
+    ]
+  },
+  {
+    "module": "Management User",
+    "permission": [
+      {
+        "permission": "RU",
+        "description": "See user "
+      },
+      {
+        "permission": "CU",
+        "description": "Create user "
+      },
+      {
+        "permission": "UU",
+        "description": "Update user "
+      },
+      {
+        "permission": "DU",
+        "description": "Delete user "
+      },
+      {
+        "permission": "RR",
+        "description": "See role "
+      },
+      {
+        "permission": "CR",
+        "description": "Create role "
+      },
+      {
+        "permission": "UR",
+        "description": "Update role "
+      },
+      {
+        "permission": "DR",
+        "description": "Delete role "
+      },
+      {
+        "permission": "RRU",
+        "description": "See role of user "
+      },
+      {
+        "permission": "CRU",
+        "description": "Add role to user "
+      },
+      {
+        "permission": "DRU",
+        "description": "Delete role from user "
+      },
+      {
+        "permission": "RUP",
+        "description": "See special permission of user "
+      },
+      {
+        "permission": "CUP",
+        "description": "Add special permission to user "
+      },
+      {
+        "permission": "DUP",
+        "description": "Delete special permission from user "
+      },
+      {
+        "permission": "RRP",
+        "description": "See permission of role "
+      },
+      {
+        "permission": "CRP",
+        "description": "Add permission to role "
+      },
+      {
+        "permission": "DRP",
+        "description": "Delete permission from role "
+      }
+    ]
+  },
+  {
+    "module": "Service",
+    "permission": [
+      {
+        "permission": "RSERVICE",
+        "description": "See service"
+      },
+      {
+        "permission": "CSERVICE",
+        "description": "Create service"
+      },
+      {
+        "permission": "USERVICE",
+        "description": "Update service"
+      },
+      {
+        "permission": "DSERVICE",
+        "description": "Delete service"
+      }
+    ]
+  },
+  {
+    "module": "Document",
+    "permission": [
+      {
+        "permission": "RDOCUMENT",
+        "description": "See document"
+      },
+      {
+        "permission": "CDOCUMENT",
+        "description": "Create document"
+      },
+      {
+        "permission": "UDOCUMENT",
+        "description": "Update document"
+      },
+      {
+        "permission": "DDOCUMENT",
+        "description": "Delete document"
+      }
+    ]
+  },
+  {
+    "module": "Contact",
+    "permission": [
+      {
+        "permission": "RCONTACT",
+        "description": "See contact"
+      },
+      {
+        "permission": "UCONTACT",
+        "description": "Update contact"
+      }
+    ]
+  },
+  {
+    "module": "Home",
+    "permission": [
+      {
+        "permission": "RHOME",
+        "description": "See home"
+      },
+      {
+        "permission": "UHOME",
+        "description": "Update home"
+      }
+    ]
+  },
+  {
+    "module": "Vision",
+    "permission": [
+      {
+        "permission": "RVISION",
+        "description": "See vision"
+      },
+      {
+        "permission": "UVISION",
+        "description": "Update vision"
+      }
+    ]
+  },
+  {
+    "module": "Article",
+    "permission": [
+      {
+        "permission": "RARTICLE",
+        "description": "See article"
+      },
+      {
+        "permission": "CARTICLE",
+        "description": "Create article"
+      },
+      {
+        "permission": "UARTICLE",
+        "description": "Update article"
+      },
+      {
+        "permission": "DARTICLE",
+        "description": "Delete article"
+      }
+    ]
+  },
+  {
+    "module": "Structure",
+    "permission": [
+      {
+        "permission": "RSTRUCTURE",
+        "description": "See structure"
+      },
+      {
+        "permission": "CSTRUCTURE",
+        "description": "Create structure"
+      },
+      {
+        "permission": "USTRUCTURE",
+        "description": "Update structure"
+      },
+      {
+        "permission": "DSTRUCTURE",
+        "description": "Delete structure"
+      }
+    ]
+  },
+  {
+    "module": "Profile Office",
+    "permission": [
+      {
+        "permission": "RPO",
+        "description": "See profile office"
+      },
+      {
+        "permission": "CPO",
+        "description": "Create profile office"
+      },
+      {
+        "permission": "UPO",
+        "description": "Update profile office"
+      },
+      {
+        "permission": "DPO",
+        "description": "Delete profile office"
+      }
+    ]
+  }
+]

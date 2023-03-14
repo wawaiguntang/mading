@@ -1,0 +1,88 @@
+{
+  "menu": [{
+      "code": "DA",
+      "text": "Dashboard",
+      "icon": "<i class='fa fa-home'></i>",
+      "url": "dashboard/index"
+    },
+    {
+      "code": "MU",
+      "header": "Management User",
+      "icon": "<i class='fa fa-users'></i>",
+      "menu": [{
+          "text": "Users",
+          "icon": "<i class='fa fa-users'></i>",
+          "url": "management_users/users",
+          "access": ["RU"]
+        },
+        {
+          "text": "Roles",
+          "icon": "<i class='fa fa-gears'></i>",
+          "url": "management_users/roles",
+          "access": ["RR"]
+        }
+      ]
+    },
+    {
+      "code": "Beranda",
+      "text": "Beranda",
+      "icon": "<i class='fa fa-home'></i>",
+      "url": "home/index",
+      "access": ["RHOME"]
+    },
+    {
+      "code": "BagianHukum",
+      "header": "Bagian Hukum",
+      "icon": "<i class='fa fa-info-circle'></i>",
+      "menu": [{
+          "text": "Struktur Organisasi",
+          "icon": "<i class='fa fa-stairs'></i>",
+          "url": "structure/index",
+          "access": ["RSTRUCTURE"]
+        },
+        {
+          "text": "Profil Pejabat",
+          "icon": "<i class='fa fa-user'></i>",
+          "url": "profile/index",
+          "access": ["RPO"]
+        },
+        {
+          "text": "Visi dan Misi",
+          "icon": "<i class='fa fa-stairs'></i>",
+          "url": "vision/index",
+          "access": ["RVISION"]
+        }
+      ]
+    },
+    {
+      "code": "Article",
+      "text": "Artikel",
+      "icon": "<i class='fa fa-box-open'></i>",
+      "url": "article/index",
+      "access": ["RARTICLE"]
+    },
+    {
+      "code": "Dokumen",
+      "text": "Dokumen",
+      "icon": "<i class='fa fa-sticky-note'></i>",
+      "url": "document/index",
+      "access": ["RDOCUMENT"]
+    },
+    {
+      "code": "Layanan",
+      "text": "Layanan",
+      "icon": "<i class='fa fa-box-open'></i>",
+      "url": "service/index",
+      "access": ["RSERVICE"]
+    },
+    {
+      "code": "Kontak",
+      "text": "Kontak",
+      "icon": "<i class='fa fa-box-open'></i>",
+      "url": "contact/index",
+      "access": ["RCONTACT"]
+    }
+    
+
+  ]
+}
