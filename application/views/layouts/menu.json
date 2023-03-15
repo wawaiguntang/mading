@@ -31,26 +31,20 @@
       "access": ["RHOME"]
     },
     {
-      "code": "BagianHukum",
-      "header": "Bagian Hukum",
+      "code": "InformasiLobby",
+      "header": "Informasi Lobby",
       "icon": "<i class='fa fa-info-circle'></i>",
       "menu": [{
-          "text": "Struktur Organisasi",
+          "text": "Cover",
           "icon": "<i class='fa fa-stairs'></i>",
-          "url": "structure/index",
-          "access": ["RSTRUCTURE"]
+          "url": "cover/index",
+          "access": ["RINFORMATIONLOBBY"]
         },
         {
-          "text": "Profil Pejabat",
-          "icon": "<i class='fa fa-user'></i>",
-          "url": "profile/index",
-          "access": ["RPO"]
-        },
-        {
-          "text": "Visi dan Misi",
+          "text": "Scientific",
           "icon": "<i class='fa fa-stairs'></i>",
-          "url": "vision/index",
-          "access": ["RVISION"]
+          "url": "scientific/index",
+          "access": ["RINFORMATIONLOBBY"]
         }
       ]
     },
@@ -67,13 +61,6 @@
       "icon": "<i class='fa fa-sticky-note'></i>",
       "url": "document/index",
       "access": ["RDOCUMENT"]
-    },
-    {
-      "code": "Layanan",
-      "text": "Layanan",
-      "icon": "<i class='fa fa-box-open'></i>",
-      "url": "service/index",
-      "access": ["RSERVICE"]
     },
     {
       "code": "Kontak",

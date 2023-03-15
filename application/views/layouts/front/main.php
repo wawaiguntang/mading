@@ -85,16 +85,13 @@ $profile = getProfileWeb();
                                 <a href="<?php echo base_url('beranda') ?>" class="nav-link">Beranda</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Bagian Hukum <i class='bx bx-chevron-down'></i></a>
+                                <a href="#" class="nav-link dropdown-toggle">Bagian Informasi <i class='bx bx-chevron-down'></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="<?php echo base_url('visi-dan-misi') ?>" class="nav-link">Visi dan misi</a>
+                                        <a href="<?php echo base_url('display/lobby') ?>" class="nav-link">Lobby</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="<?php echo base_url('struktur-organisasi') ?>" class="nav-link">Struktur Organisasi</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="<?php echo base_url('profil-pejabat-struktural') ?>" class="nav-link">Profil Pejabat Struktural</a>
+                                        <a href="<?php echo base_url('display/masjid') ?>" class="nav-link">Masjid</a>
                                     </li>
                                 </ul>
                             </li>
@@ -102,12 +99,8 @@ $profile = getProfileWeb();
                                 <a href="<?php echo base_url('berita-dan-kegiatan') ?>" class="nav-link">Berita dan Kegiatan</a>
                             </li>
                             <li class="nav-item">
-                                <a href="<?php echo base_url('dokumen') ?>" class="nav-link">Dokumen</a>
+                                <a href="<?php echo base_url('perpustakaan') ?>" class="nav-link">Perpustakaan</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="<?php echo base_url('layanan') ?>" class="nav-link">Layanan</a>
-                            </li>
-
                             <li class="nav-item">
                                 <a href="<?php echo base_url('kontak') ?>" class="nav-link">Kontak</a>
                             </li>
@@ -179,25 +172,16 @@ $profile = getProfileWeb();
                             <h3>Halaman</h3>
                             <ul>
                                 <li>
-                                    <a href="<?php echo base_url('visi-dan-misi') ?>" target="_blank">Visi dan Misi</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo base_url('struktur-organisasi') ?>" target="_blank">Struktur Organisasi</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo base_url('profil-pejabat-struktural') ?>" target="_blank">Profil Pejabat Struktural</a>
-                                </li>
-                                <li>
                                     <a href="<?php echo base_url('berita-dan-kegiatan') ?>" target="_blank">Berita dan kegiatan</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url('dokumen') ?>" target="_blank">Dokumen</a>
+                                    <a href="<?php echo base_url('perpustakaan') ?>" target="_blank">Perpustakaan</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url('layanan') ?>" target="_blank">Layanan</a>
+                                    <a href="<?php echo base_url('display/lobby') ?>" target="_blank">Bagian Informasi Lobby</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo base_url('kontak') ?>" target="_blank">Kontak</a>
+                                    <a href="<?php echo base_url('') ?>" target="_blank">Bagian Informasi Masjid</a>
                                 </li>
                             </ul>
                         </div>

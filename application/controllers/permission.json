@@ -224,5 +224,26 @@
         "description": "Delete profile office"
       }
     ]
+  },
+  {
+    "module": "Information Lobby",
+    "permission": [
+      {
+        "permission": "RINFORMATIONLOBBY",
+        "description": "See information lobby"
+      },
+      {
+        "permission": "CINFORMATIONLOBBY",
+        "description": "Create information lobby"
+      },
+      {
+        "permission": "UINFORMATIONLOBBY",
+        "description": "Update information lobby"
+      },
+      {
+        "permission": "DINFORMATIONLOBBY",
+        "description": "Delete information lobby"
+      }
+    ]
   }
 ]

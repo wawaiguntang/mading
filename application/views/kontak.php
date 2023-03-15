@@ -66,7 +66,7 @@
                 </div>
                 <hr>
                 <div class="row mt-4">
-                    <div class="col-md-6 col-sm-12 col-12">
+                    <div class="col-md-12 col-sm-12 col-12">
                         <div class="service-item">
                             <i class="flaticon-chat"></i>
                             <h3>
@@ -110,57 +110,6 @@
                                     </div>
                                     <div class="d-flex justify-content-end">
                                         <button type="button" class="btn btn-sm btn-primary" id="btnSave" onclick="saveData('<?php echo base_url('kontak/sendSuggestion'); ?>')">Kirim</button>
-                                    </div>
-                                    <?php echo form_close(); ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 col-12">
-                        <div class="service-item">
-                            <i class="flaticon-mail"></i>
-                            <h3>
-                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal2">Diskusi Hukum</a>
-                            </h3>
-                            <p>Mari berdiskusi dengan kami</p>
-                            <img class="img-one" src="<?php echo base_url() ?>assets/front/img/sass/service-shape.png" alt="Shape">
-                            <img class="img-two" src="<?php echo base_url() ?>assets/front/img/sass/service-shape1.png" alt="Shape">
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Diskusi Hukum</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <?php echo form_open('', ["id" => "form2"]); ?>
-                                    <div class="mb-3">
-                                        <label for="nama" class="form-label">Nama</label>
-                                        <input type="text" class="form-control" name="name" id="nama" placeholder="Masukan Nama">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="Masukan Email">
-                                    </div>
-                                    <div class="mb-3 d-none">
-                                        <label for="" class="form-label">Tipe</label>
-                                        <select class="form-select" aria-label="Default select example" name="type">
-                                            <option value="Kritik">Kritik</option>
-                                            <option value="Saran">Saran</option>
-                                            <option value="Masukan">Masukan</option>
-                                            <option value="Diskusi Hukum" selected>Diskusi Hukum</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="isi" class="form-label">Isi</label>
-                                        <textarea class="form-control" id="isi" name="content" rows="3"></textarea>
-                                    </div>
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" class="btn btn-sm btn-primary" id="btnSave2" onclick="saveData('<?php echo base_url('kontak/sendSuggestion'); ?>','btnSave2','form2')">Kirim</button>
                                     </div>
                                     <?php echo form_close(); ?>
                                 </div>
